@@ -1,0 +1,131 @@
+/* This stylesheet is specifically for mobile */
+
+@media only screen and (max-width: 700px) {
+    .h2 {
+        font-size: 1.5rem;
+    }
+
+    .video,
+    .chat {
+        width: 100%;
+        height: 100%;
+    }
+
+    .chat-form {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .btn {
+        padding: 3px 10px;
+    }
+
+    .mobile-hide {
+        display: block;
+    }
+
+    .nonmobile-hide {
+        display: none;
+    }
+
+    .switch {
+        display: none;
+    }
+
+    .right-header {
+        margin-top: 1rem;
+        float: left;
+    }
+
+    .noscrollbar {
+        float: left;
+        margin-bottom: 10px;
+    }
+
+    .inv_input {
+        width: 18em;
+    }
+
+    /* Playlist */
+    .vid-list-container {
+        width: 100%;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+}
+
+/* Strange Screen Size */
+@media (max-width: 1200px) and (min-width: 992px) {
+    .video {
+        width: 551px;
+        height: 310px;
+    }
+
+    .chat {
+        width: 390px;
+        height: 100%;
+    }
+
+    .chat-form {
+        width: 390px;
+    }
+}
+
+@media (max-width: 1300px) and (min-width: 1201px) {
+    .chat {
+        width: 480px;
+        height: 100%;
+    }
+
+    .chat-form {
+        width: 480px;
+    }
+}
+
+
+@media (max-width: 1800px) and (min-width: 1201px) {
+    .chat-sidebar {
+        width: 20%;
+    }
+
+    .room-area {
+        width: 80%
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 600px) {
+    .chat-sidebar {
+        width: 30%;
+    }
+
+    .room-area {
+        width: 70%
+    }
+
+    #playerArea {
+        height: 600px;
+    }
+
+    .login-form .box-wrapper {
+        max-width: 40%;
+    }
+}
+
+@media (max-width:600px) {
+    .login-form .box-wrapper {
+        max-width: 90%;
+    }
+
+    #playerArea {
+        height: 340px;
+    }
+
+    .room-area {
+        width: 100%;
+    }
+
+    .chat-sidebar {
+        position: static;
+        width: 100%;
+    }
+}
